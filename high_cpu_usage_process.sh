@@ -17,5 +17,5 @@ if [ "${kill_process}" == true ]; then
   exit 0
 else
   echo "EMAIL ALERT: high_cpu_usage_process at ${file_id}: ${high_cpu_process_id} | ${high_cpu_process_line}"
-  exit 1
+  exit 0
 fi
